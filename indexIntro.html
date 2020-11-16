@@ -4,7 +4,7 @@
         <title>my first webpage</title>
     </head>
     <body>
-        <h1>Hello! My name is Abhilash</h1>
+        <h1 id="hello">Hello! My name is Abhilash</h1>
         <p>This is my first Web Page and it is pretty good !!!!</p>
         <p>
         <h1>This is Heading 1</h1>
@@ -14,16 +14,91 @@
         <h5>This is Heading 5</h5>
         <h6>This is Heading 6</h6>
         </p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente libero provident laudantium minus numquam quas aliquam, eveniet nesciunt tempora, sequi in ad ab mollitia impedit praesentium, non veniam nihil voluptas.</p>
+        <p>Lorem ipsum dolor sit, amet  <strong>consectetur adipisicing elit.</strong>   Sapiente libero provident laudantium minus numquam quas aliquam, <em>eveniet nesciunt tempora</em>, sequi in ad ab mollitia impedit praesentium, non veniam nihil voluptas.</p>
         <p>
         <h3>Adding a Image</h3>
 
-        <img src="./yoursSincerely.jpeg" alt="Sincerely-Yours" width="200" height="400">
+        <img src="../images/yoursSincerely.jpeg" alt="Sincerely-Yours" width="200">
         </p>
 
         <p>
             <h3>Image of Youtube Logo</h3>
-            <img src="https://cdn.havecamerawilltravel.com/photographer/files/2020/01/youtube-logo-new-1068x510.jpg" alt="youtube logo">
+            <img src="https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="youtube logo" width="200">
+        </p>
+        <p>
+            <h3>Adding hyper link</h3>
+            <a href="#" target="blank"><img src="../images/google_logo.png" alt=""></a>
+        </p>
+        <p>
+            <h3>Setting internal links</h3>
+            <a href="about.html">about page</a>
+        </p>
+        <p>
+            <h3>Linking different section of the page</h3>
+            <a href="#hello">back to the top</a>
+        </p>
+        <p>
+            <h3>Adding a special character</h3>
+            Copyright &copy;
+        </p>
+        <p>
+            <h3>Adding an unordered list</h3>
+            <ul>
+                <li><a href="#">john</a></li>
+                <li>peter
+                    <ol>
+                        <li>html</li>
+                        <li>css</li>
+                    </ol>
+                </li>
+                <li>jack</li>
+            </ul>
+        </p>
+        <p>
+            <h3>Adding an ordered list</h3>
+            <ol>
+                <li>john</li>
+                <li>peter</li>
+                <li>jack</li>
+            </ol>
+        </p>
+        <p>
+            <h3>Adding a table element</h3>
+            <table>
+                <tr>
+                    <th>Table of Marks</th>
+                </tr>
+                <tr>
+                    <td>Subject</td>
+                    <td>Marks</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>80</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <h3>Adding a form element</h3>
+            <form action="" method="">
+                <input type="text" name="" id="name" placeholder="first name">
+                <br>
+                <button type="submit">submit</button>
+                <p>password</p>
+                <p><input type="password" placeholder="Password"></p>
+                
+                <input type="email" name="" id="" placeholder="email">
+                <br>
+                <button type="submit">submit</button>
+                <p>Description</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <button type="radio">Say Hey</button>
+            </form>
         </p>
     </body>
 </html>
