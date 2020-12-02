@@ -1,20 +1,38 @@
 /* ELEMENT SELECTORS */
 h1 {
-    color: red;
-    font-size: 3rem;
-    }
-h2{
-    color:blue;
-    font-size: 2rem;
-    }
-
-p{
-    color: blueviolet;
-    font-size: 1rem;
+  color: red;
+  font-size: 3rem;
+}
+h2 {
+  color: blue;
+  font-size: 2rem;
 }
 
-#footer{
-    color:green;
-    font-size: 2.5rem;
-    background-color: silver;
+#footer {
+  color: green;
+  background-color: silver;
+}
+
+.pink {
+  color: pink;
+}
+
+.yellow {
+  color: yellow;
+}
+
+#darkPink {
+  color: #eb08d8;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+div {
+  color: red;
+  background-color: gray;
+}
+span {
+  text-transform: uppercase;
 }
