@@ -1,0 +1,18 @@
+#one {
+  color: #e3170a;
+  background: #e16036;
+}
+
+#two {
+  color: #d6a99a;
+  background: #d6cbc1;
+}
+
+#three {
+  color: #cdd6d0;
+  background: #e3170a;
+}
+
+body {
+  background-color: cyan;
+}
